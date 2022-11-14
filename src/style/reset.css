@@ -1,0 +1,44 @@
+body,
+main,
+figure,
+img,
+h1,
+h2,
+label,
+input,
+button,
+p,
+span,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: none;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --blue: #5163d3;
+  --lightblue: #d7e4fb;
+  --white: #ffffff;
+  --gray: #eeeeee;
+  --lightgray: #f9f9f9;
+  --black: #1b1c1e;
+}
+
+body {
+  background-color: var(--lightgray);
+  font-family: "Roboto", sans-serif;
+}
